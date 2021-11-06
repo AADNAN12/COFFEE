@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+   
+}
+.classe{
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+.titre1{
+    background-color: rgb(116, 51, 51);
+    color: white;
+    width: 30%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 35px;
+    text-shadow: 15px 5px 5px black;
+    
+}
+.CHARIT{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    background-color: rgb(116, 51, 51);
+    font-size: 20px;
+    width: 70%;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+   
+}
+
+dl{
+    padding: 0% 20%; 
+ }
+ dl:hover{
+     background-color:white;
+     color: rgb(255, 0, 0);
+     opacity: 0.4;
+     padding: 0px 70px; 
+     cursor: pointer;
+     text-decoration: underline; 
+ }
+.bgimg1{
+    background-image: url(BG2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.div1{
+   padding: 10% 10% ;
+   
+}
+.welcom{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: rgb(8, 8, 8) 15px 20px 10px;
+    padding-top: 90px;
+}
+.button{
+    color: rgb(255, 255, 255);
+    background-color: saddlebrown;
+    font-size: 22px;
+    font-style: italic;
+    font-family: monospace;
+    margin: 80px 50px 50px 90px;
+    width: 150px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px 20px 10px 20px  ;
+    border-color: white;
+    cursor: pointer;
+}
+a{
+    text-decoration:none ;
+    color: white;
+}
+.element1{
+    width: 250px;
+    height: 250px;
+    margin-top: 50%;
+    margin-bottom: 10%;
+    margin-left: -30%;
+    margin-right: 40%;
+    border:  5px solid rgb(136, 51, 45);
+  border-radius: 10px 40px 10px 40px;
+}
+.element2{
+    margin-top: 20%;
+    margin-left: 40%;
+    
+    text-transform: uppercase;
+    color: wheat;
+    text-decoration: dotted underline 5PX;
+    
+}
+.element3{
+  width: 600px;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-right: 20%;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border:  5px solid rgb(104, 39, 34);
+  border-radius: 10px 40px 10px 40px;
+  background-color: rgb(209, 183, 183);
+  padding: 10px 30PX;
+
+}
+.bgimg2{
+    margin-top: 5%;
+    background-image: url(backgroundtypes.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 95%;
+    z-index: -1;
+}
+@media only screen and (max-width:1170px)  {
+   
+    
+}
